@@ -34,8 +34,9 @@
 <body>
     <!-- Header -->
     <div class="intro-header">
+		<div class="logo">
+		
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message center-text">
@@ -45,13 +46,15 @@
 								<input type="input" class="input-lg form-control" id="discounts" placeholder="Discounts by expiration date"/>
 							</div>
 							<div class="form-group">
-								<button class="btn btn-lg btn-default btn-ghost">Do you know?</button>
+								<button class="btn btn-lg btn-default btn-ghost">Get an early access</button>
 							</div>
 						</form>
                     </div>
                 </div>
             </div>
 
+        </div>
+		
         </div>
         <!-- /.container -->
 
@@ -65,9 +68,14 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 col-sm-12">
+                <div class="col-lg-4 col-lg-offset-4 col-sm-12 text-center">
                     <h1 class="section-heading">Do you know?</h1>
-                    <p class="lead">Gravida...</p>
+                    <p class="lead">
+						Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida
+						euismod lorem ipsum dolor sit amet consequat feugiat.
+						Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida
+						euismod lorem ipsum dolor sit amet.
+					</p>
                 </div>
             </div>
 
@@ -79,22 +87,42 @@
 
 	
     <div class="content-section-b">
-	
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12" style="background: #3ADACE; color: #FFFFFF">
-                    <h2 class="section-heading">Gravida</h2>
-                    <p class="lead">...</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12" style="background: #000000; color: #FFFFFF">
-                    <h2 class="section-heading">Vivamus</h2>
-                    <p class="lead">...</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12" style="background: #90639A; color: #FFFFFF">
-                    <h2 class="section-heading">Accumsan</h2>
-                    <p class="lead">...</p>
-                </div>
-            </div>
-			
+		<div class="container">
+			<div class="row">
+		
+				<div class="col-lg-4 col-md-4 col-sm-12 column1">
+					<img src="img/col1_icon.png"/>
+					<h2 class="section-heading">Gravida</h2>
+					<p class="lead">
+						Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
+						Diam tempor dui lacinia accumsan vivamus.
+						Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
+						Diam tempor dui lacinia accumsan vivamus.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 column2">
+					<img src="img/col2_icon.png"/>
+					<h2 class="section-heading">Vivamus</h2>
+					<p class="lead">
+						Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
+						Diam tempor dui lacinia accumsan vivamus.
+						Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
+						Diam tempor dui lacinia accumsan vivamus.
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 column3">
+					<img src="img/col2_icon.png"/>
+					<h2 class="section-heading">Accumsan</h2>
+					<p class="lead">
+						Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
+						Diam tempor dui lacinia accumsan vivamus.
+						Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
+						Diam tempor dui lacinia accumsan vivamus.
+					</p>
+				</div>
+				
+			</div>
+		</div>
     </div>
     <!-- /.content-section-b -->
 
@@ -103,15 +131,46 @@
 
         <div class="container">
 			<div class="row">
-                <div class="col-lg-6 col-lg-offset-3 col-sm-12">
+                <div class="col-lg-6 col-lg-offset-3 col-sm-12 text-center">
                     <h1 class="section-heading">Need more informations?</h1>
-                    <p class="lead">Gravida...</p>
+                    <p class="lead">
+						Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida
+						euismod lorem ipsum dolor sit amet consequat feugiat.
+						Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida
+						euismod lorem ipsum dolor sit amet.
+					</p>
                 </div>
-				
-				<div class="-lg-6 col-lg-offset-3 col-sm-12">
-					[HERE WILL BE A FORM]
-				</div>
             </div>
+				
+			<form>
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-2 col-sm-12">
+						<div class="form-group">
+							<label for="name" class="sr-only">Name</label>
+							<input type="input" class="input-lg form-control" id="name" placeholder="Name"/>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-12">
+						<div class="form-group">
+							<label for="email" class="sr-only">Email</label>
+							<input type="input" class="input-lg form-control" id="email" placeholder="Email"/>
+						</div>
+					</div>
+					<div class="col-lg-8 col-lg-offset-2 col-sm-12">
+						<div class="form-group">
+							<label for="message" class="sr-only">Message</label>
+							<textarea class="input-lg form-control" id="message" placeholder="Message"></textarea>
+						</div>
+					</div>
+					
+					<div class="col-lg-4 col-lg-offset-2 col-sm-12">
+						<button type="submit" class="btn btn-lg btn-default btn-send">Send message</button>
+					</div>
+					<div class="col-lg-4 col-sm-12">
+						<button type="reset" class="btn btn-lg btn-default btn-reset">Clear form</button>
+					</div>
+				</div>
+			</form>
 			
         </div>
         <!-- /.container -->
@@ -119,26 +178,12 @@
     </div>
     <!-- /.content-section-c -->
 
-    <div class="content-section-d">
-
-        <div class="container">
-
-            <div class="row">
-                
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-d -->
-
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-					<div>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+					<div style="display: inline-block">
 						<ul class="list-inline banner-social-buttons">
 							<li>
 								<a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i></a>
@@ -156,8 +201,10 @@
 						</ul>
 					</div>
                 </div>
-				
-				<div class="col-lg-12 text-center">
+            </div>
+			
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
 					&copy; BuyMeBy. All rights reserved.
 				</div>
             </div>
@@ -169,7 +216,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
