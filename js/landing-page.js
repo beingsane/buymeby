@@ -12,11 +12,13 @@ $(document).ready(function() {
 				form.find('.form-info').hide().removeClass('alert-success').removeClass('alert-error');
 				if(data.status == 'success')
 				{
-					form.find('.form-info').addClass('alert-success').html(data.message).show();
+					form.find('.form-info').addClass('alert-success').html(data.message)
+						.show().delay(3000).fadeOut('slow');
 				}
 				else
 				{
-					form.find('.form-info').addClass('alert-error').html(data.message).show();
+					form.find('.form-info').addClass('alert-error').html(data.message)
+						.show().delay(3000).fadeOut('slow');
 				}
 			}
 		});
