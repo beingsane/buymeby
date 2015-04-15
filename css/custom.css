@@ -13,6 +13,24 @@
 }
 
 
+.form-info {
+	margin: 10px 0px 20px;
+	display: none;
+	color: #000;
+	padding: 10px;
+	text-align: center;
+}
+
+.alert-success {
+	background: #c9ffb9;
+    border: 1px solid #a6ca8a;
+}
+
+.alert-error {
+    background: #ffcccc;
+    border: 1px solid #f5aca6;
+}
+
 
 .intro-header {
 	background: url(../img/intro-bg.png) no-repeat left top;
@@ -28,7 +46,14 @@
 }
 
 .intro-message {
-	padding: 35% 0 0 0;
+	padding: 34% 0 0 0;
+}
+
+/* prevent recovering logo by input */
+@media(max-width:767px) {
+	.intro-message {
+		padding: 60% 0 0 0;
+	}
 }
 
 .intro-message button {
@@ -54,11 +79,20 @@
 	background: #F2F2F2;
 }
 
+.intro-message button:active {
+	-webkit-box-shadow: inset 0px 0px 3px rgba(0,0,0,.125);
+	box-shadow: inset 0px 0px 3px rgba(0,0,0,.125);
+}
+
 .intro-message input {
 	width: 90%;
 	font-size: 28px;
 }
 
+.intro-message .form-info {
+	width: 90%;
+	margin: 0px auto 8px;
+}
 
 
 .content-section-a {
@@ -137,14 +171,24 @@ footer {
 	color: #A8A8A8;
 }
 
-.banner-social-buttons {
+.social-buttons {
 	float: none;
 	margin-bottom: 60px;
 }
 
-.banner-social-buttons .btn {
+.social-buttons .btn {
 	padding: 30px;
 	font-size: 22px;
 	border-radius: 50px;
 }
 
+
+/*
+ul.share-buttons {
+	list-style: none;
+	padding: 0;
+}
+
+ul.share-buttons li {
+	display: inline;
+}*/
