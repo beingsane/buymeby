@@ -56,7 +56,7 @@
 	}
 }
 
-.intro-message button {
+.btn-ghost {
 
 	background: transparent;
 	color: #FFFFFF;
@@ -74,12 +74,12 @@
 	transition: background .2s ease-in-out, border .2s ease-in-out;
 }
 
-.intro-message button:hover, .intro-message button:active, .intro-message button:focus {
+.btn-ghost:hover, .btn-ghost:active, .btn-ghost:focus {
 	border: 6px solid #F2F2F2;
 	background: #F2F2F2;
 }
 
-.intro-message button:active {
+.btn-ghost:active {
 	-webkit-box-shadow: inset 0px 0px 3px rgba(0,0,0,.125);
 	box-shadow: inset 0px 0px 3px rgba(0,0,0,.125);
 }
@@ -112,6 +112,7 @@
 .content-section-b .column1, .content-section-b .column2, .content-section-b .column3 {
 	padding: 8% 6% 8%;
 	text-align: center;
+	min-height: 650px;
 }
 
 .content-section-b .column1 {
